@@ -1,0 +1,250 @@
+/* Repeated Page Themes */
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+}
+
+body {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    background-color: #FFFFFF;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Header */
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31/26);
+    /* identical to box height */
+    color: #2196F3;
+    text-decoration: none;
+}
+
+.traverse {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+    text-decoration: none
+
+}
+
+.current-page {
+    color: rgba(33, 150, 243, 1);
+}
+
+.traverse:hover,
+.traverse:focus {
+    color: #2196F3;
+}
+
+.header-contacts-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+    text-decoration: none
+}
+
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+    color: #2196F3;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: calc(60/44);
+    /* or 136% */
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.hero-button {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30/16);
+    /* identical to box height, or 188% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: rgba(24, 140, 232, 1);
+}
+
+/* Benefits */
+.benefit-title {
+    font-weight: 700;
+    line-height: calc(16/14);
+    text-transform: uppercase;
+}
+
+.benefit-summary {
+    line-height: calc(24/14);
+    /* or 171% */
+    color: var(--secondary-text-color);
+}
+
+/* What we do */
+.what-we-do-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42/36);
+    text-align: center;
+}
+
+/* Our Team Bottom */
+.our-team {
+    background-color: #F5F4FA;
+}
+
+.our-team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42/36);
+    text-align: center;
+}
+
+.our-team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(19/16);
+    /* identical to box height */    
+    text-align: center;
+}
+
+.our-team-role {
+    font-size: 16px;
+    line-height: calc(19/16);
+    /* identical to box height */
+    text-align: center;
+    color: var(--secondary-text-color);
+}
+
+/* Footer */
+.footer-section {
+    background-color: #2F303A;
+}
+
+.footer-contacts-address {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24/14);
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-contacts-address:hover,
+.footer-contacts-address:focus {
+    color: #2196F3;
+}
+
+.footer-contacts-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24/14);
+    /* or 171% */    
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+.footer-contacts-link:hover,
+.footer-contacts-link:focus {
+    color: #2196F3;
+}
+
+/* Porfolio Styles */
+/* Portfolio Filters Section */
+.portfolio-filter {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26/16);
+    /* identical to box height, or 162% */   
+    text-align: center;   
+    color: var(--primary-text-color);
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.portfolio-filter:hover,
+.portfolio-filter:focus {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26/16);
+    /* identical to box height, or 162% */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    background-color: #2196F3;
+    /* shadow-middle */
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px
+     rgba(0, 0, 0, 0.388), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+.current-filter {
+    background-color: #2196F3;
+    /* shadow-middle */    
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px
+    rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    color: white;
+}
+
+/* Portfiolio Product Section */
+.product-details-item {    
+    font-weight: 700;
+    font-size: 18px;
+    line-height: calc(36/18);
+    /* identical to box height, or 200% */    
+    letter-spacing: 0.06em;    
+    color: var(--primary-text-color);
+}
+
+.product-details-category {
+    font-size: 16px;
+    line-height: calc(30/16);
+    /* identical to box height, or 188% */
+    color: var(--secondary-text-color);
+}
+
