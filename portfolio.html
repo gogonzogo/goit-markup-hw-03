@@ -5,50 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jose Portfolio HW</title>
-    <!-- Link to css style sheet -->
-    <link rel="stylesheet" href="./css/styles.css" />
+  <!-- Link to fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
-    />
+      />
+       <!-- Link to modern normalizer styles sheet -->
+    <link rel="stylesheet" href="./modern-normalize-main/modern-normalize.css" />
+    <!-- Link to personal css style sheet -->
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
-      <nav>
-        <a class="logo" href="./index.html">WebStudio</a>
-        <!-- Header Navigation -->
-        <ul class="page-traverse">
-          <li>
-            <a class="traverse" href="./index.html" title="studio"
-              >Studio</a
-            >
-          </li>
-          <li>
-            <a class="traverse current-page" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li>
-            <a class="traverse" href="#">Contacts</a>
-          </li>
-        </ul>
+      <nav class="header-navigation">
+        <a class="header-logo" href="./index.html">WebStudio</a>
+        <!-- Header Navigation -->        
+          <ul class="header-navigation-list">
+            <li class="header-navigation-item">
+              <a class="header-navigation-link" href="./index.html" title="studio">Studio</a>
+            </li class="header-navigation-item">
+            <li class="header-navigation-item">
+              <a class="header-navigation-link current-page" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="header-navigation-item">
+              <a class="header-navigation-link" href="#">Contacts</a>
+            </li>
+          </ul>
       </nav>
       <!-- Header Contact Details -->
-      <ul class="header-contacts-list">
-        <li>
-          <a class="header-contacts-link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="header-contacts-link" href="tel:+380961111111">+380961111111</a>
-        </li>
-      </ul>
+        <ul class="header-contacts-list">
+          <li class="header-contacts-item">
+            <a class="header-contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="header-contacts-item">
+            <a class="header-contacts-link" href="tel:+380961111111">+380961111111</a>
+          </li>
+        </ul>
     </header>
     <!-- Filters Section -->
     <main>
-      <section>
-        <ul>
+      <section class="button-section">
+        <ul class="button-list">
           <li><button class="portfolio-filter current-filter" type="button">All</button></li>
           <li><button class="portfolio-filter" type="button">Web-sites</button></li>
           <li><button class="portfolio-filter" type="button">Apps</button></li>
@@ -57,85 +56,85 @@
         </ul>
         <!-- Product Section -->
         <ul class="product-details-list">
-          <li>
+          <li class="product-details-item">
             <img
               src="./images/hportfolioimgone.jpg"
               alt="Image of open laptop"
               width="370"
             />
-            <h3 class="product-details-item">Technoduck</h3>
+            <h3 class="product-details-title">Technoduck</h3>
             <p class="product-details-category">Web-site</p>
           </li>
-          <li>
+          <li class="product-details-item">
             <img
               src="./images/iportfolioimgtwo.jpg"
               alt="Image of two basketball players"
               width="370"
             />
-            <h3 class="product-details-item">Poster New Orlean vs Golden Star</h3>
+            <h3 class="product-details-title">Poster New Orlean vs Golden Star</h3>
             <p class="product-details-category">Design</p>
           </li>
-          <li>
+          <li class="product-details-item">
             <img
               src="./images/jportfolioimgthree.jpg"
               alt="Image of seafood restaraunt logo"
               width="370"
             />
-            <h3 class="product-details-item">Seafood Restaurant</h3>
+            <h3 class="product-details-title">Seafood Restaurant</h3>
             <p class="product-details-category">Apps</p>
           </li>
-          <li>
+          <li class="product-details-item">
             <img
               src="./images/kportfolioimgfour.jpg"
               alt="Image of headphones"
               width="370"
             />
-            <h3 class="product-details-item">Project Prime</h3>
+            <h3 class="product-details-title">Project Prime</h3>
             <p class="product-details-category">Marketing</p>
           </li>
-          <li>
+          <li class="product-details-item">
             <img
               src="./images/lportfolioimgfive.jpg"
               alt="Image of product boxes"
               width="370"
             />
-            <h3 class="product-details-item">Project Boxes</h3>
+            <h3 class="product-details-title">Project Boxes</h3>
             <p class="product-details-category">Apps</p>
           </li>
-          <li>
+          <li class="product-details-item">
             <img
               src="./images/mportfolioimgsix.jpg"
               alt="Image of iMac"
               width="370"
             />
-            <h3 class="product-details-item">Inspiration has no Borders</h3>
+            <h3 class="product-details-title">Inspiration has no Borders</h3>
             <p class="product-details-category">Web-site</p>
           </li>
-          <li>
+          <li class="product-details-item">
             <img
               src="./images/nportfolioimgseven.jpg"
               alt="Image of open book"
               width="370"
             />
-            <h3 class="product-details-item">Limited Edition</h3>
+            <h3 class="product-details-title">Limited Edition</h3>
             <p class="product-details-category">Design</p>
           </li>
-          <li>
+          <li class="product-details-item">
             <img
               src="./images/oportfolioimgeight.jpg"
               alt="Image of label tag"
               width="370"
             />
-            <h3 class="product-details-item">Project Lab</h3>
+            <h3 class="product-details-title">Project Lab</h3>
             <p class="product-details-category">Marketing</p>
           </li>
-          <li>
+          <li class="product-details-item">
             <img
               src="./images/pportfolioimgnine.jpg"
               alt="Image of typing on laptop"
               width="370"
             />
-            <h3 class="product-details-item">Growing Buisness</h3>
+            <h3 class="product-details-title">Growing Buisness</h3>
             <p class="product-details-category">Apps</p>
           </li>
         </ul>
@@ -143,22 +142,20 @@
     </main>
 
     <footer class="footer-section">
-      <a class="logo" href="./index.html">WebStudio</a>
+         <a class="footer-logo" href="./index.html">WebStudio</a>
       <address>
         <ul class="footer-contacts-list">
-          <li>
+          <li class="footer-contacts-item">
             <a class="footer-contacts-address" href="https://goo.gl/maps/7hkbFZoG83Kui2D87"
               target="_blank"
               >695 Park Ave, New York, NY 10065, <br />
               United States</a
             >
           </li>
-          <li>
-            <a class="footer-contacts-link" href="mailto:info@example.com"
-              >info@example.com</a
-            >
+          <li class="footer-contacts-item">
+            <a class="footer-contacts-link" href="mailto:info@example.com">info@example.com</a>
           </li>
-          <li>
+          <li class="footer-contacts-item">
             <a class="footer-contacts-link" href="tel:+12127724150">+12127724150</a>
           </li>
         </ul>
