@@ -28,7 +28,159 @@ a {
     text-decoration: none;
 }
 
+
+/* Header Flex Testing Start */
+.header-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 32, 0, 32, 0;
+    background-color: #f30505;
+}
+
+.header-navigation {
+    display: flex;
+    background-color: #212121;
+    justify-content: space-evenly;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    background-color: green;
+}
+
+.header-navigation-list {
+    display: flex;
+    background-color: aqua;
+    padding-right: 50px;
+    
+}
+
+.header-navigation-item {
+    margin-right: 10px;
+    background-color: purple;
+}
+
+.header-contacts-list {
+    display: flex;
+    background-color: blue;
+}
+
+.header-contacts-link {
+    margin-right: 10px;
+    background-color: yellow;
+}
+/* Header Flex Testing End */
+/* Hero Flex Testing Start */
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-title {
+    display: flex;
+    background-color: yellow;
+    align-items: center;
+}
+/* Hero Flex Testing End */
+/* Benefits Flex Testing Start */
+.benefits-h2 {
+    display: none;
+}
+
+.benefits-list {
+    display: flex;
+    background-color: violet;
+    justify-content: space-evenly;
+}
+
+.benefits-item {
+    display: flex;
+    background-color: orange;
+    flex-direction: column;
+    margin-right: 10px;
+}
+/* Benefits Flex Testing End */
+/* What We Do Flex Testing Start */
+.what-we-do-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: yellow;
+}
+
+.what-we-do-title {
+    display: flex;
+    background-color: red;
+}
+
+.what-we-do-list {
+    display: flex;
+    background-color: blue;
+}
+
+.what-we-do-item {
+    display: flex;
+    background-color: green;
+    margin-right: 10px;
+}
+/* What We Do Flex Testing End */
+/* Our Team Flex Testing Start */
+.our-team-section {
+    display: flex;
+    background-color: orange;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our-team-title {
+    display: flex;
+    background-color: pink;
+}
+
+.our-team-list {
+    display: flex;
+    background-color: indianred;
+}
+
+.our-team-item {
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+}
+/* Our Team Flex Testing End */
+/* Footer Flex Testing Start */
+.footer-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-logo {
+    display: flex;
+    background-color: red;
+}
+
+.footer-contacts-list {
+    display: flex;
+    background-color: yellow;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-contacts-item {
+    display: flex;
+    background-color: blue;
+   
+}
+/* Footer Flex Testing End */
+
+
 /* Header */
+
 .header-logo {
     font-family: 'Raleway';
     font-style: normal;
@@ -73,7 +225,7 @@ a {
 }
 
 /* Hero Section */
-.hero {
+.hero-section {
     background-color: var(--background-darkest-color);
 }
 
@@ -110,13 +262,13 @@ a {
 }
 
 /* Benefits */
-.benefit-title {
+.benefits-title {
     font-weight: 700;
     line-height: calc(16/14);
     text-transform: uppercase;
 }
 
-.benefit-summary {
+.benefits-summary {
     line-height: calc(24/14);
     color: var(--secondary-text-color);
 }
@@ -253,4 +405,7 @@ a {
     line-height: calc(30/16);
     color: var(--secondary-text-color);
 }
+
+
+
 
