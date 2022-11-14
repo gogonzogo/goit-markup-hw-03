@@ -1,2 +1,2 @@
-# goit-markup-hw-02
-Demo Coding Course GoIT HW2
+# GoIT Full Stack Developer Bootcamp
+Module 3 Assignment
